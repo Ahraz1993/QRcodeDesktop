@@ -1,0 +1,113 @@
+@font-face {
+    font-family:myFontFamily ;
+    src: url(https://fonts.google.com/specimen/Outfit);
+}
+body{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%)
+}
+.container{
+   display:flex;
+   flex-direction: column; 
+   justify-content: center;
+   align-items: center;
+   border-radius: 1rem;
+   width:15vw;
+   height:50vh;
+   background-color: hsl(0, 0%, 100%);
+}
+#imgSection{
+   padding-left:0.5rem;
+   padding-right: 0.5rem;
+   padding-top: 0.5rem;
+   
+  
+   width:93%;
+   height:50%;
+}
+img{
+    border-radius: 0.6rem;
+    width:100%;
+    height:100%;
+}
+
+#textSection{
+    font-family: myFontFamily;
+    display: flex;
+    flex-direction: column;
+    font-family: [Outfit];
+    width:100%;
+    height:50%;
+}
+.textBox{
+   
+    width:100%;
+    height:auto;
+    text-align: center;
+    
+}
+
+#improve{
+    margin:1rem;
+    font-size: 1vmax;
+    font-weight: 700;
+}
+#Scan{
+    margin:1rem;
+    color:hsl(216, 15%, 48%);
+    font-size: 0.8vmax;
+    font-weight: 600;
+}
+@media screen and (max-width:1240px) {
+    #improve{
+        font-size: 1.1vmax;
+        
+    }
+    #Scan{
+        font-size: 0.9vmax;
+        
+    }
+
+}
+@media screen and (max-width:750px) {
+    #improve{
+        font-size: 1.4vmax;
+        
+    }
+    #Scan{
+        font-size: 1.2vmax;
+        
+    }
+
+}
+@media screen and (max-width:650px) {
+    #improve{
+        font-size: 1.8vmin;
+        
+    }
+    #Scan{
+        font-size: 1.2vmin;
+        
+    }
+
+}
+
+@media screen and (max-width:510px) {
+    #improve{
+        font-size: 1.9vmin;
+        
+    }
+    #Scan{
+        font-size: 1.3vmin;
+        
+    }
+
+}
+
+
+
