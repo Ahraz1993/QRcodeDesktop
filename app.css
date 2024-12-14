@@ -30,7 +30,7 @@ body{
    
    margin-top:5%;
    width:90%;
-   height:85%;
+   height:90%;
 }
 img{
     border-radius: 0.6rem;
@@ -116,7 +116,7 @@ p{
         align-items: center;
         border-radius: 1rem;
         width:80vw;
-        height:70vh;
+        height:80vh;
         background-color: hsl(0, 0%, 100%);
      }
      #improve{
