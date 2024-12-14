@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 @font-face {
     font-family:myFontFamily ;
     src: url(https://fonts.google.com/specimen/Outfit);
@@ -22,21 +26,21 @@ body{
    background-color: hsl(0, 0%, 100%);
 }
 #imgSection{
-   padding-left:0.5rem;
-   padding-right: 0.5rem;
-   padding-top: 0.5rem;
    
-  
-   width:93%;
-   height:50%;
+   
+   margin-top:5%;
+   width:90%;
+   height:85%;
 }
 img{
     border-radius: 0.6rem;
+    
     width:100%;
     height:100%;
 }
 
 #textSection{
+
     font-family: myFontFamily;
     display: flex;
     flex-direction: column;
@@ -44,24 +48,30 @@ img{
     width:100%;
     height:50%;
 }
-.textBox{
-   
-    width:100%;
-    height:auto;
-    text-align: center;
-    
-}
 
+p{
+    padding:1rem;
+}
 #improve{
-    margin:1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:50%;
     font-size: 1vmax;
     font-weight: 700;
+    text-align: center;
 }
 #Scan{
-    margin:1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50%;
+    width:100%;
     color:hsl(216, 15%, 48%);
     font-size: 0.8vmax;
     font-weight: 600;
+    text-align: center;
 }
 @media screen and (max-width:1240px) {
     #improve{
@@ -97,17 +107,28 @@ img{
 
 }
 
-@media screen and (max-width:510px) {
-    #improve{
-        font-size: 1.9vmin;
-        
-    }
-    #Scan{
-        font-size: 1.3vmin;
-        
-    }
 
+@media (max-width:510px) {
+    .container{
+        display:flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        border-radius: 1rem;
+        width:80vw;
+        height:70vh;
+        background-color: hsl(0, 0%, 100%);
+     }
+     #improve{
+        font-size: 2vmax;
+     }
+     #Scan{
+        font-size: 1.6vmax;
+     }
+    
 }
+
+
 
 
 
