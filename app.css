@@ -145,8 +145,36 @@ p{
      }
     
 }
-
-
+@media (max-height:450px) {
+    #improve{
+        font-size: 4vmin;
+     }
+     #Scan{
+        font-size: 3vmin;
+     }
+    
+    
+}
+@media (max-height:350px) {
+    #improve{
+        font-size: 6vmin;
+     }
+     #Scan{
+        font-size: 4vmin;
+     }
+    
+    
+}
+@media (max-height:200px) {
+    #improve{
+        font-size: 8vmin;
+     }
+     #Scan{
+        font-size: 6vmin;
+     }
+    
+    
+}
 
 
 
