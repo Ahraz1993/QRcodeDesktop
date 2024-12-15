@@ -84,28 +84,8 @@ p{
     }
 
 }
-@media screen and (max-width:750px) {
-    #improve{
-        font-size: 1.4vmax;
-        
-    }
-    #Scan{
-        font-size: 1.2vmax;
-        
-    }
 
-}
-@media screen and (max-width:650px) {
-    #improve{
-        font-size: 1.8vmin;
-        
-    }
-    #Scan{
-        font-size: 1.2vmin;
-        
-    }
 
-}
 @media (max-width:900px) {
     .container{
         display:flex;
