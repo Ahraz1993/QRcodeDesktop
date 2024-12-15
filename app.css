@@ -8,9 +8,12 @@
 }
 body{
     /* width:100vw; block element doesn't need width  */
-    /* below property prevents cutting off content if it grows beneath the viewport */
+    
     padding:16px;
+    /* below property prevents cutting off content if it grows beneath the viewport */
     min-height:100vh; 
+    /* below property prevents cutting off content if it grows sideways from the viewport */
+    min-width:100vw;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -21,14 +24,22 @@ body{
     font-size:0.7rem;
 }
 h2{
-    padding:16px;
+    padding:1.2rem;
+    /* padding:16px; */
     font-family: 'Outfit',sans-serif;
     font-weight: 700;
+    font-family: 1.3rem;
+    line-height: 1.5rem;
+    color:hsl(218,44%,22%)
 }
 p{
-    padding:16px;
+    padding:1.2rem;
+    /* padding:16px; */
     font-family: 'Outfit',sans-serif;
+    color:hsl(216,15%,48%);
     font-weight: 200;
+    line-height: 1.5rem;
+    font-size:0.9rem;
 }
 .container{
    padding:16px;
@@ -39,6 +50,7 @@ p{
    border-radius: 1rem;
    /* below seeting  prevents card from becoming too wide */
    max-width:20rem;
+   /* height:auto; */
    
    background-color: hsl(0, 0%, 100%);
 }
